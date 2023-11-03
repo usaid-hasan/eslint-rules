@@ -1,0 +1,9 @@
+{
+  "name": "eslint-rules",
+  "description": "Rules for eslint and some of its popular plugins.",
+  "version": "0.0.1",
+  "author": "Usaid Hasan <usaid-hasan@outlook.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js"
+}
