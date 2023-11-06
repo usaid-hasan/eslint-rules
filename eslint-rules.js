@@ -511,7 +511,7 @@ export default {
   'prefer-destructuring': ['error', {
     VariableDeclarator: { array: false, object: true },
     AssignmentExpression: { array: true, object: false },
-  }, { enforceForRenamedProperties: true }],
+  }, { enforceForRenamedProperties: false }],
   // Disallow the use of `Math.pow` in favor of the `**` operator
   'prefer-exponentiation-operator': 'error',
   // Enforce using named capture group in regular expression

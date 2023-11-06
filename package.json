@@ -1,7 +1,7 @@
 {
   "name": "eslint-rules",
   "description": "Rules for eslint and some of its popular plugins.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Usaid Hasan <usaid-hasan@outlook.com>",
   "homepage": "https://github.com/usaid-hasan/eslint-rules#readme",
   "repository": "github:usaid-hasan/eslint-rules",
