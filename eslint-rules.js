@@ -106,7 +106,13 @@ export default {
   // Disallow unused private class members
   'no-unused-private-class-members': 'error',
   // Disallow unused variables
-  'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+  'no-unused-vars': ['error', {
+    vars: 'all',
+    args: 'after-used',
+    argsIgnorePattern: '^_|next',
+    destructuredArrayIgnorePattern: '^_',
+    ignoreRestSiblings: true,
+  }],
   // Disallow use of variables before they are defined
   'no-use-before-define': ['error', 'nofunc'],
   // Disallow useless backreferences in regular expressions
@@ -437,6 +443,7 @@ export default {
   'no-undefined': 'error',
   // Disallow dangling underscores in identifiers
   'no-underscore-dangle': ['error', {
+    allow: ['_id'],
     allowAfterThis: false,
     allowAfterSuper: false,
     allowAfterThisConstructor: false,
